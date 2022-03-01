@@ -1,6 +1,6 @@
-const drumPart = document.getElementsByClassName("drumPart") //should be targeting the button class
-const drumAudio = document.getElementById("drumAudio") //should be target the audio path
+const drumPart = document.getElementById("drumPart"); //should be targeting the button class
+const playAudio = document.getElementById("drumAudio"); //should be targeting the audio path
 
 drumPart.addEventListener("click", () => { //should ask the button to listen to a click
-    Audio.Play(drumAudio); //should play the audio path when click
+    playAudio.play(); //should play the audio path when clicked
 })
