@@ -1,0 +1,11 @@
+const bassDrum = document.getElementsByClassName("bassDrum")
+const snareDrum = document.getElementsByClassName("snareDrum")
+const hiHatDrum = document.getElementsByClassName("hiHatDrum")
+const leftTomDrum = document.getElementsByClassName("leftTomDrum")
+const rightTomDrum = document.getElementsByClassName("rightTomDrum")
+const standTomDrum = document.getElementsByClassName("standTomDrum")
+const hiHatCymbal = document.getElementsByClassName("hiHatCymbal")
+const crashCymbal = document.getElementsByClassName("crashCymbal")
+const rideCymbal = document.getElementsByClassName("rideCymbal")
+const drumAudio = document.getElementById("drumAudio")
+
