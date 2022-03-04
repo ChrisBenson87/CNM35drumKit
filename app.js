@@ -11,6 +11,7 @@ const hiHatCymbalAudio = document.getElementById("hiHatCymbalAudio");
 const crashCymbal = document.getElementById("crashCymbal");
 const crashCymbalAudio = document.getElementById("crashCymbalAudio");
 const rideCymbal = document.getElementById("rideCymbal");
+const rideCymbalAudio = document.getElementById("rideCymbalAudio");
 
 bassDrum.addEventListener("click", () =>{
     bassDrumAudio.play();
@@ -41,5 +42,5 @@ crashCymbal.addEventListener("click", () =>{
 });
 
 rideCymbal.addEventListener("click", () =>{
-    crashCymbalAudio.play();
+    rideCymbalAudio.play();
 });
