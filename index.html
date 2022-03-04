@@ -8,24 +8,67 @@
     <title>drumKit</title>
 </head>
 <body>
-    <button id = "drumPart">Bass Drum
-    <audio id = "drumAudio" src = "./sounds/boom.wav"></audio></button>
-    <button id = "drumPart">Snare Drum
-    <audio id = "drumAudio" src = "./sounds/clap.wav"></audio></button>
-    <button id = "drumPart">HiHat Drum
-    <audio id = "drumAudio" src = "./sounds/hihat.wav"></audio></button>
-    <button id = "drumPart">Left Tom Drum
-    <audio id = "drumAudio" src = "./sounds/tom.wav"></audio></button>
-    <button id = "drumPart">Right Tom Drum
-    <audio id = "drumAudio" src = "./sounds/tom.wav"></audio></button>
-    <button id = "drumPart">Snare Tom Drum
-    <audio id = "drumAudio" src = "./sounds/tink.wav"></audio></button>
-    <button id = "drumPart">HiHat Cymbal
-    <audio id = "drumAudio" src = "./sounds/openhat.wav"></audio></button>
-    <button id = "drumPart">Clash Cymbal
-    <audio id = "drumAudio" src = "./sounds/ride.wav"></audio></button>
-    <button id = "drumPart">Ride Cymbal
-    <audio id = "drumAudio" src = "./sounds/ride.wav"></audio></button>
-    <script src="./app.js"></script>    
+    <header>
+        <h1>DRUM KIT</h1>
+        <h2>Use your keys or click to make drum sounds</h2>
+    </header>
+    <div class = "drumKit">
+        <button id = bassDrum>
+            <h3>Q</h3>
+            <h3>Bass Drum</h3>
+            <audio id = "bassDrumAudio" src = "sounds/kick.wav" autoplay = "false"></audio>
+        </button>
+    </div>
+    <div class = "drumKit">
+        <button id = snareDrum>
+            <h3>E</h3>
+            <h3>Snare Drum</h3>
+            <audio id = "snareDrumAudio" src = "sounds/snare.wav" autoplay = "false"></audio>
+        </button>
+    </div>
+    <div class = "drumKit">
+        <button id = highTomDrum>
+            <h3>E</h3>
+            <h3>High Tom Drum</h3>
+            <audio id = "highTomDrumAudio" src = "sounds/tom.wav" autoplay = "false"></audio>
+        </button>
+    </div>
+    <div class = "drumKit">
+        <button id = midTomDrum>
+            <h3>R</h3>
+            <h3>Mid Tom Drum</h3>
+            <audio id = "highTomDrumAudio" src = "sounds/tom.wav" autoplay = "false"></audio>
+        </button>
+    </div>
+    <div class = "drumKit">
+        <button id = floorTomDrum>
+            <h3>A</h3>
+            <h3>Floor Tom Drum</h3>
+            <audio id = "highTomDrumAudio" src = "sounds/tom.wav" autoplay = "false"></audio>
+        </button>
+    </div>
+    <div class = "drumKit">
+        <button id = hiHatCymbal>
+            <h3>S</h3>
+            <h3>Hi Hat Cymbal</h3>
+            <audio id = "hiHatCymbalAudio" src = "sounds/hihat.wav" autoplay = "false"></audio>
+        </button>
+    </div>
+    <div class = "drumKit">
+        <button id = crashCymbal>
+            <h3>D</h3>
+            <h3>Crash Cymbal</h3>
+            <audio id = "crashCymbalAudio" src = "sounds/ride.wav" autoplay = "false"></audio>
+        </button>
+    </div>
+    <div class = "drumKit">
+        <button id = rideCymbal>
+            <h3>D</h3>
+            <h3>Ride Cymbal</h3>
+            <audio id = "crashCymbalAudio" src = "sounds/ride.wav" autoplay = "false"></audio>
+        </button>
+    </div>
+
+    <script src = "./app.js"></script>
 </body>
 </html>
